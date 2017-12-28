@@ -33,9 +33,9 @@ body{
   background-size: cover;
 }
 nav a{
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
-  color: #496b1d !important;
+  color: black !important;
 }
 #cover-section .overlay{
   height: 100%;
@@ -43,11 +43,11 @@ nav a{
   background-color: rgba(255,255,255,0.5);
 }
 #cover-section h1{
-  font-size: 40px;
+  font-size: 60px;
   color: #333333;
   text-align: left;
   letter-spacing: -0.07em;
-  line-height:60px;
+  line-height:80px;
   font-weight:200;
   margin-top: 50px;
 }
@@ -102,7 +102,7 @@ section#desc-section p{
 }
 
 section#count-section{
-  height: 300px;
+  height: 260px;
   background-color: #ececec;
 }
 
@@ -113,7 +113,7 @@ section#count-section{
 }
 
 #count-section .count{
-  color: #496b1d;
+  color: black;
   width: 33%;
   display: inline;
   float: left;
@@ -124,7 +124,7 @@ section#count-section{
 }
 .count span{
   font-weight: bold;
-  font-size: 32px;
+  font-size: 45px;
 }
 
 @media (max-width: 767px) {
