@@ -1,7 +1,16 @@
+#cover-section{
+  background-image:url('../images/2013_sample_bg.jpg');
+}
+#cover-section h1{
+  color: #bd044f !important;
+}
+#desc-section{
+  background-color: #d9e0e8 !important;
+}
 .period-label{
   font-size: 20px;
   letter-spacing: -0.05em;
-  background-color: #5a5a5a;
+  background-color: #bd044f;
   padding: 5px 10px;
   color: white;
 }
