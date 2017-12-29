@@ -1,0 +1,114 @@
+body{
+  margin:0px;
+  font-family: 'Apple SD Gothic Neo','malgun gothic','microsoft neogothic';
+}
+@media (min-width: 1200px) {
+  .container{
+    max-width: 970px;
+  }
+}
+@media (max-width: 767px) {
+  .xs-block{
+    display:block;
+  }
+}
+.navbar-default{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+nav a{
+  font-size: 18px;
+  font-weight: 300;
+  color: black !important;
+}
+nav a.active{
+  font-weight: bold;
+}
+.overlay{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255,255,255,0.5);
+}
+.overlay-dark{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.btn-action{
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  padding:15px 55px;
+  outline:none;
+  border:0px;
+  margin:15px 0px;
+}
+
+#cover-section{
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cover-section h1{
+  font-size: 60px;
+  color: #333333;
+  text-align: left;
+  letter-spacing: -0.07em;
+  line-height:80px;
+  font-weight:200;
+  margin-top: 50px;
+}
+
+#cover-section .sub-title{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+  text-align: left;
+  letter-spacing: -0.07em;
+}
+
+.circle{
+  display:inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 200px;
+  margin: 0px 10px;
+  padding: 30px 0px;
+}
+
+
+
+section#footer-section{
+  height:80px;
+  background-color: #525252;
+  color:white;
+}
+.footer-info{
+  margin:0 auto;
+  font-weight: 200;
+  color: #ffffff;
+  text-align: left;
+  line-height: 15px;
+  padding-top:28px;
+  font-size:10px;
+}
+.togerther_logo{
+  float:left;
+  padding-right:20px;
+}
+@media (max-width: 767px) {
+  #footer-section{
+    height:160px !important;
+  }
+  .footer-info{
+    line-height:18px;
+  }
+  .togerther_logo{
+    width:100%;
+    margin-bottom:20px;
+  }
+}

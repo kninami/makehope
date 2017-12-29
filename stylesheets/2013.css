@@ -4,8 +4,13 @@
 #cover-section h1{
   color: #bd044f !important;
 }
+
+
 #desc-section{
-  background-color: #d9e0e8 !important;
+  background-color: #dedede;
+  height: 350px;
+  padding: 40px 0px;
+  text-align: center;
 }
 .period-label{
   font-size: 20px;
@@ -25,3 +30,15 @@
 .start-label hr{
   margin: 5px !important;
 }
+
+.start-label.bright{
+  color: white;
+}
+
+#workshop-section{
+  background-image:url('../images/2013/section2.JPG');
+  height: 350px;
+  background-size: cover;
+  text-align: center;
+}
+
