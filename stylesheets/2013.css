@@ -7,7 +7,7 @@
 
 
 #desc-section{
-  background-color: #dedede;
+  background-color: #948b8e;
   height: 350px;
   padding: 40px 0px;
   text-align: center;
@@ -22,6 +22,7 @@
 .start-label{
   width: 230px;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 .start-label span{
   font-weight: bold;
@@ -43,3 +44,39 @@
   text-align: center;
 }
 
+#idea-section{
+  padding: 40px 0px;
+  background-color: #eeeeee;
+}
+
+.idea-box{
+  display: inline-block;
+  height: 150px;
+  width: 200px;
+  margin: 20px;
+  border: 1px solid #d3d3d3;
+  background-color: white;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  padding: 15px 5px;
+}
+
+#slide-section{
+  height: 420px;
+}
+
+#result-section{
+  background-image: url('../images/2013/result.jpg');
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+}
+
+#review-section{
+  background-color: #eeeeee;
+  padding: 60px 0px;
+}
+
+#review-section .circle{
+  background-color: #b9657f;
+  color: #ffffff;
+}
