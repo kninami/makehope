@@ -160,6 +160,12 @@ section#footer-section{
   float:left;
   padding-right:20px;
 }
+.sponsor_logos{
+  float:right;
+}
+.liscc-img {
+  margin-right: 5px;
+}
 @media (max-width: 767px) {
   #footer-section{
     height:160px !important;
