@@ -81,7 +81,6 @@ nav a.active{
 }
 
 section#desc-section{
-  height: 350px;
   padding: 60px 0px;
   background-color: #e0e8d9;
   text-align: center;
@@ -99,10 +98,13 @@ section#desc-section p{
   display:inline-block;
   width: 200px;
   height: 200px;
-  background-color: #ffffff;
-  border-radius: 200px;
-  margin: 0px 10px;
+  background-color: rgb(250,250,250);
+  border: 3px solid rgb(220,220,220);
+  border-radius: 50%;
+  margin: 0 auto;
   padding: 30px 0px;
+  justify-content: center;
+  vertical-align: middle;
 }
 
 section#count-section{
@@ -177,4 +179,39 @@ section#footer-section{
     width:100%;
     margin-bottom:20px;
   }
+}
+
+.festival-flow-title {
+  font-size: 3.5rem;
+}
+
+.festival-flow-subtitle {
+  margin: 40px 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.festival-flow-number {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: rgba(0,0,0,.2);
+}
+
+.step-title {
+  margin-top: 2.5rem;
+  font-size: 2.5rem;
+}
+
+.step-title {
+  margin-top: 2.5rem;
+  font-size: 2.5rem;
+}
+
+.step-content {
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.stemp-image {
+  width: 83%;
 }
