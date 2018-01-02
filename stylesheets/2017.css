@@ -1,12 +1,57 @@
 #cover-section{
   background-image: url('../images/2017/main.JPG');
   background-position: center;
+  height: 550px;
 }
 
 #cover-section h1{
   color: white;
+  margin-top: 200px;
 }
 
 nav a{
   color: white !important;
+}
+
+.period-label{
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  background-color: #8ac43d;
+  padding: 5px 10px;
+  color: white;
+}
+
+
+.start-label hr{
+  border-color: #8ac43d;
+}
+
+
+#desc-section{
+  padding: 60px 0px;
+  text-align: center;
+}
+
+#process-section{
+  padding: 60px 0px;
+  text-align: center;
+  background-image: -webkit-linear-gradient(-180deg, #bdffbf 0%, #f3ff90 100%);
+  background-image: -moz-linear-gradient(-180deg, #bdffbf 0%, #f3ff90 100%);
+  background-image: -o-linear-gradient(-180deg, #bdffbf 0%, #f3ff90 100%);
+  background-image: linear-gradient(-180deg, #bdffbf 0%, #f3ff90 100%);
+}
+
+#festival-section{
+  background-image: url('../images/2017/festival.jpg');
+  height: 500px;
+  background-position: top;
+  background-size: cover;
+  padding: 60px 0px;
+}
+
+#festival-section .circle{
+  width: 350px;
+  height: 350px;
+  border-radius: 350px;
+  background-color: rgba(255,255,255,0.8);
 }

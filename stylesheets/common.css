@@ -28,7 +28,7 @@ nav a.active{
 .overlay{
   height: 100%;
   width: 100%;
-  background-color: rgba(255,255,255,0.45);
+  background-color: rgba(255,255,255,0.3);
 }
 .overlay-dark{
   height: 100%;
@@ -121,5 +121,20 @@ section#footer-section{
 .swiper-container {
   width: 600px;
   height: 300px;
+}
+
+.start-label{
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.start-label span{
+  font-weight: bold;
+  font-size: 24px;
+}
+.start-label hr{
+  margin: 10px auto;
+  max-width: 50px;
+  border-width: 3px;
+  text-align: center;
 }
 

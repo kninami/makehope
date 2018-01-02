@@ -19,20 +19,9 @@
   padding: 5px 10px;
   color: white;
 }
-.start-label{
-  margin: 0 auto;
-  padding-bottom: 20px;
-}
-.start-label span{
-  font-weight: bold;
-  font-size: 24px;
-}
+
 .start-label hr{
-  margin: 10px auto;
-  max-width: 50px;
-  border-width: 3px;
   border-color: #f05f40;
-  text-align: center;
 }
 
 .start-label.bright{
