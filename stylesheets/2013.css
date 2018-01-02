@@ -7,7 +7,7 @@
 
 
 #desc-section{
-  background-color: #948b8e;
+  background-color: #333333;
   height: 350px;
   padding: 40px 0px;
   text-align: center;
@@ -20,16 +20,19 @@
   color: white;
 }
 .start-label{
-  width: 230px;
   margin: 0 auto;
   padding-bottom: 20px;
 }
 .start-label span{
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
 }
 .start-label hr{
-  margin: 5px !important;
+  margin: 10px auto;
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #f05f40;
+  text-align: center;
 }
 
 .start-label.bright{
@@ -72,7 +75,7 @@
 }
 
 #review-section{
-  background-color: #eeeeee;
+  background-color: #ffffff;
   padding: 60px 0px;
 }
 

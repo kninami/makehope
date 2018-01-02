@@ -1,0 +1,12 @@
+#cover-section{
+  background-image: url('../images/2017/main.JPG');
+  background-position: center;
+}
+
+#cover-section h1{
+  color: white;
+}
+
+nav a{
+  color: white !important;
+}
