@@ -5,19 +5,19 @@
   color: #bd044f !important;
 }
 
-
-#desc-section{
-  background-color: #333333;
-  height: 350px;
-  padding: 40px 0px;
-  text-align: center;
-}
 .period-label{
   font-size: 20px;
   letter-spacing: -0.05em;
   background-color: #bd044f;
   padding: 5px 10px;
   color: white;
+}
+
+#desc-section{
+  background-color: #333333;
+  height: 350px;
+  padding: 40px 0px;
+  text-align: center;
 }
 
 .start-label hr{
@@ -29,7 +29,7 @@
 }
 
 #workshop-section{
-  background-image:url('../images/2013/section3.JPG');
+  background-image:url('../images/workshop_image.jpg');
   background-position: center;
   height: 350px;
   background-size: cover;
