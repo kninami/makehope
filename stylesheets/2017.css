@@ -41,6 +41,10 @@ nav a{
   background-image: linear-gradient(-180deg, #bdffbf 0%, #f3ff90 100%);
 }
 
+#ing-section{
+  padding: 60px 0px;
+}
+
 #festival-section{
   background-image: url('../images/2017/festival.jpg');
   height: 500px;
