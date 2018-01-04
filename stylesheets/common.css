@@ -78,12 +78,22 @@ nav a.active{
   border-radius: 200px;
   margin: 0px 10px;
   padding: 30px 0px;
+  background-size: cover;
+}
+
+.circle.md{
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
 }
 
 .circles{
   margin: 20px;
 }
 
+.step{
+  display: inline-block;
+}
 
 
 section#footer-section{
