@@ -6,19 +6,23 @@ brand-sub-color: #f79320;
 brand-sub-color-darker: #b57128;
 */
 /*--- cover section ---*/
+nav a{
+  color: white !important;
+}
 
 #cover-section{
-  background-image:url('../images/sample_bg.jpg');
-  height: 600px;
+  background-image:url('../images/index/slide3.jpg');
+  height: 550px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
 }
 #cover-section h1{
   font-size: 60px;
   color: #333333;
   text-align: left;
   letter-spacing: -0.07em;
-  line-height:80px;
+  line-height:70px;
   font-weight:200;
   margin-top: 80px;
 }
@@ -67,7 +71,6 @@ section#desc-section p{
   width: 200px;
   height: 200px;
   background-color: rgb(250,250,250);
-  border: 3px solid rgb(220,220,220);
   border-radius: 50%;
   margin: 0 auto;
   padding: 30px 0px;
@@ -76,13 +79,13 @@ section#desc-section p{
 }
 
 section#count-section{
-  height: 260px;
+  padding: 60px 0px;
+  text-align: center;
   background-color: #ececec;
 }
 
 .count-row{
   width: 800px;
-  padding-top: 80px;
   margin: 0 auto;
 }
 
@@ -107,9 +110,33 @@ section#count-section{
   }
 }
 
-.swiper-container {
-  width: 600px;
-  height: 300px;
+#slide-section{
+  padding: 60px 0px;
+  text-align: center;
+  background-image: -webkit-linear-gradient(-180deg, #ececec 0%, #f7ffc9 100%);
+  background-image: -moz-linear-gradient(-180deg, #ececec 0%, #f7ffc9 100%);
+  background-image: -o-linear-gradient(-180deg, #ececec 0%, #f7ffc9 100%);
+  background-image: linear-gradient(-180deg, #ececec 0%, #f7ffc9 100%);
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-size: cover;
 }
 
 section#footer-section{
@@ -166,13 +193,9 @@ section#footer-section{
 }
 
 .step-title {
-  margin-top: 2.5rem;
-  font-size: 2.5rem;
-}
-
-.step-title {
-  margin-top: 2.5rem;
-  font-size: 2.5rem;
+  margin-top: 2.0rem;
+  font-size: 2.0rem;
+  font-weight: bold;
 }
 
 .step-content {
