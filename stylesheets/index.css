@@ -26,12 +26,20 @@ nav a{
   font-weight:200;
   margin-top: 80px;
 }
-#cover-section .sub-title{
+#cover-section .sdf-description{
+  margin-top: 40px;
+}
+#cover-section .description-title{
   font-size: 18px;
   font-weight: 500;
   color: #333333;
   text-align: left;
   letter-spacing: -0.07em;
+  margin-bottom: 10px;
+}
+#cover-section .description-content{
+  font-size:14px;
+  line-height: 150%;
 }
 
 @media (max-width: 767px) {
@@ -84,14 +92,34 @@ section#count-section{
   background-color: #ececec;
 }
 
-.count-row{
+#count-section .count-sdf {
+  /* margin-top: 15px; */
+  max-width: 1000px;
+  margin: 30px auto 0 auto;
+}
+
+#count-section .second-count-sdf {
+  max-width: 800px;
+  margin: 50px auto 5px auto;
+
+}
+
+/* .count-row{
   width: 800px;
   margin: 0 auto;
-}
+} */
 
 #count-section .count{
   color: black;
-  width: 33%;
+  font-size: 24px;
+  position: relative;
+  text-align: center;
+  font-weight: 300;
+}
+
+#count-section .second-row-count{
+  color: black;
+  width: 50%;
   display: inline;
   float: left;
   font-size: 24px;
@@ -99,7 +127,13 @@ section#count-section{
   text-align: center;
   font-weight: 300;
 }
-.count span{
+
+.count div{
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 7px;
+}
+.second-row-count span{
   font-weight: bold;
   font-size: 45px;
 }
@@ -139,9 +173,19 @@ section#count-section{
   background-size: cover;
 }
 
+#more-section{
+  padding: 60px 0px;
+  text-align: center;
+}
+
+#more-section .information {
+  font-size: 1.5rem;
+  line-height: 200%;
+}
+
 section#footer-section{
   height:80px;
-  background-color: #525252;
+  background-color: #998675;
   color:white;
 }
 .footer-info{
@@ -150,7 +194,7 @@ section#footer-section{
   color: #ffffff;
   text-align: left;
   line-height: 15px;
-  padding-top:28px;
+  /* padding-top:28px; */
   font-size:10px;
 }
 .togerther_logo{
@@ -187,14 +231,16 @@ section#footer-section{
 }
 
 .festival-flow-number {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 400;
-  color: rgba(0,0,0,.2);
+  margin-bottom: 10px;
+  color: rgba(0,0,0,.5);
 }
 
 .step-title {
-  margin-top: 2.0rem;
-  font-size: 2.0rem;
+  margin-top: 3.0rem;
+  font-size: 1.7rem;
+  color: #333333;
   font-weight: bold;
 }
 
