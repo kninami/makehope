@@ -181,6 +181,9 @@ section#count-section{
 #more-section .information {
   font-size: 1.5rem;
   line-height: 200%;
+  text-align: left;
+  max-width: 850px;
+  margin: auto auto;
 }
 
 section#footer-section{
