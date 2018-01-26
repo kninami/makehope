@@ -188,7 +188,7 @@ section#count-section{
 
 section#footer-section{
   height:80px;
-  background-color: #998675;
+  background-color: #7d7d7d;
   color:white;
 }
 .footer-info{
@@ -197,7 +197,7 @@ section#footer-section{
   color: #ffffff;
   text-align: left;
   line-height: 15px;
-  /* padding-top:28px; */
+  padding-top:28px;
   font-size:10px;
 }
 .togerther_logo{
