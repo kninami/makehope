@@ -175,6 +175,7 @@ section#count-section{
 
 #more-section{
   padding: 60px 0px;
+  margin: auto auto;
   text-align: center;
 }
 
@@ -187,19 +188,35 @@ section#count-section{
 }
 
 section#footer-section{
-  height:80px;
-  background-color: #7d7d7d;
+  background-color: #d0c6ad;
   color:white;
+  padding: 30px 0;
 }
 .footer-info{
   margin:0 auto;
-  font-weight: 200;
-  color: #ffffff;
+  color: #5d544d;
   text-align: left;
   line-height: 15px;
-  padding-top:28px;
   font-size:10px;
 }
+
+.footer-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.footer-description {
+  margin-top: 7px;
+  font-size: 1.4rem;
+  line-height: 160%;
+}
+
+.logo-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 .togerther_logo{
   float:left;
   padding-right:20px;
