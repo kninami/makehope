@@ -143,6 +143,17 @@ section#footer-section{
   height: 500px;
 }
 
+.swiper-slide .photo-header{
+  position: absolute;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: dimgray;
+  font-size: 18px;
+}
+
 .start-label{
   margin: 0 auto;
   padding-bottom: 20px;
