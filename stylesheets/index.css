@@ -9,7 +9,6 @@ brand-sub-color-darker: #b57128;
 nav a{
   color: white !important;
 }
-
 #cover-section{
   background-image:url('../images/index/slide3.jpg');
   height: 550px;
@@ -24,13 +23,15 @@ nav a{
   letter-spacing: -0.07em;
   line-height:70px;
   font-weight:200;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 #cover-section .sdf-description{
-  margin-top: 100px;
+  margin-top: 30px;
+  border-left: 5px solid black;
+  padding-left: 30px;
 }
 #cover-section .description-title{
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 500;
   color: #333333;
   text-align: left;
@@ -43,16 +44,22 @@ nav a{
 }
 
 @media (max-width: 767px) {
+  section{
+    height: 100%;
+  }
+  #cover-section .sdf-description{
+    display: none;
+  }
+  #cover-section{
+    height: 620px;
+  }
   #cover-section .container{
-    text-align:center;
-    height:480px !important;
     background-size:contain;
-    background-position:bottom;
+    background-position:center;
   }
   #cover-section h1{
-    font-size:24px;
-    text-align:center;
-    line-height:35px;
+    font-size:60px;
+    line-height:70px;
   }
   #cover-section .sub-title{
     font-size:14px;
@@ -115,6 +122,13 @@ section#count-section{
   position: relative;
   text-align: center;
   font-weight: 300;
+  width: 230px;
+  height: 230px;
+  margin: 0 auto;
+  border-radius: 230px;
+  background-color: #ffffff;
+  padding: 60px 0px;
+  border: 10px solid #dedede;
 }
 
 #count-section .second-row-count{
@@ -130,7 +144,7 @@ section#count-section{
 
 .count div{
   font-weight: bold;
-  font-size: 45px;
+  font-size: 40px;
   margin-top: 7px;
 }
 .second-row-count span{
@@ -138,19 +152,14 @@ section#count-section{
   font-size: 45px;
 }
 
-@media (max-width: 767px) {
-  section#desc-section{
-    height:420px;
-  }
-}
 
 #slide-section{
   padding: 60px 0px;
   text-align: center;
-  background-image: -webkit-linear-gradient(-180deg, #ececec 0%, #f7ffc9 100%);
-  background-image: -moz-linear-gradient(-180deg, #ececec 0%, #f7ffc9 100%);
-  background-image: -o-linear-gradient(-180deg, #ececec 0%, #f7ffc9 100%);
-  background-image: linear-gradient(-180deg, #ececec 0%, #f7ffc9 100%);
+  background-image: -webkit-linear-gradient(-180deg, #ececec 0%, #c1e2c7 100%);
+  background-image: -moz-linear-gradient(-180deg, #ececec 0%, #c1e2c7 100%);
+  background-image: -o-linear-gradient(-180deg, #ececec 0%, #c1e2c7 100%);
+  background-image: linear-gradient(-180deg, #ececec 0%, #c1e2c7 100%);
 }
 
 .swiper-container {
@@ -182,6 +191,7 @@ section#count-section{
   padding: 60px 0px;
   margin: auto auto;
   text-align: center;
+  background-color: #c1e2c7;
 }
 
 #more-section .information {
@@ -193,7 +203,8 @@ section#count-section{
 }
 
 section#footer-section{
-  background-color: #d0c6ad;
+  border-top: 1px solid #eeeeee;
+  background-color: #ffffff;
   color:white;
   padding: 30px 0;
 }

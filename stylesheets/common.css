@@ -17,6 +17,10 @@ body{
   border-color: transparent;
 }
 
+.navbar-brand{
+  font-weight: bold;
+}
+
 nav a{
   font-size: 18px;
   font-weight: 300;
