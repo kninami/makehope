@@ -1,10 +1,14 @@
+nav a{
+  color: white !important;
+}
 #cover-section{
   background-image:url('../images/2014/2014_bg.JPG');
   background-size: cover;
 }
 
 #cover-section h1{
-  color: #f39700 !important;
+  text-align: right;
+  color: #ffffff !important;
 }
 
 .period-label{
@@ -114,7 +118,8 @@
 }
 
 section#footer-section{
-  background-color: #d0c6ad;
+  border-top: 1px solid #eeeeee;
+  background-color: #ffffff;
   color:white;
   padding: 30px 0;
 }
@@ -154,6 +159,11 @@ section#footer-section{
   margin-right: 5px;
 }
 @media (max-width: 767px) {
+  #cover-section{
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+  }
   #footer-section{
     height:160px !important;
   }
