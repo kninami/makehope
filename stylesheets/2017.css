@@ -90,6 +90,19 @@ nav a{
   padding: 60px 0px;
 }
 
+.interviews{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.interviews .label{
+  font-size: 14px;
+}
+
+.interviews > div > h4{
+  font-weight: bold;
+}
+
 .idea-title{
   font-size: 1.8rem;
   font-weight: bold;
