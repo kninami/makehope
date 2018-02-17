@@ -143,8 +143,13 @@ section#footer-section{
 
 
 .swiper-container {
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
   height: 500px;
+}
+
+.swiper-slide {
+  background-position: center;
 }
 
 .swiper-slide .photo-header{
