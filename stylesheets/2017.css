@@ -64,12 +64,18 @@ nav a{
 
 .video-title {
   margin-top: 15px;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .video-thumbnail {
   padding: 0;
+}
 
+@media (max-width: 767px) {
+  .video-thumbnail {
+    margin-bottom:20px;
+  }
 }
 
 #process-section{

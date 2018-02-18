@@ -163,14 +163,16 @@ section#count-section{
 }
 
 .swiper-container {
-  width: 550px;
-  height: 550px;
+  width: 100%;
+  max-width: 550px;
+  max-height: 550px;
 }
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
+  background-position: center;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
