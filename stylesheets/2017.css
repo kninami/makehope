@@ -91,8 +91,8 @@ nav a{
 }
 
 .interviews{
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .interviews .label{
@@ -101,6 +101,23 @@ nav a{
 
 .interviews > div > h4{
   font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .project-interview{
+    margin:20px auto;
+  }
+  .start-label {
+    padding: 0;
+  }
+  .interviews {
+    margin-top: 15px;
+  }
+}
+
+.team-name {
+  margin: auto 5px;
+  font-size: 1.5rem;
 }
 
 .idea-title{

@@ -85,6 +85,12 @@ nav a.active{
   background-size: cover;
 }
 
+@media (max-width: 488px) {
+  .circle{
+    margin-top: 15px;
+  }
+}
+
 .circle.md{
   width: 250px;
   height: 250px;
@@ -128,6 +134,13 @@ section#footer-section{
   float:left;
   padding-right:20px;
 }
+
+@media (max-width: 991px) and (min-width: 767px) {
+  .logo-content-two {
+    padding-left: 30px;
+  }
+}
+
 @media (max-width: 767px) {
   #footer-section{
     height:160px !important;
