@@ -57,7 +57,7 @@ nav a{
 }
 
 #idea-section{
-  background-image: url('../images/2017/workshop2.jpg');
+  background-image: url('../images/2013/last_presentation.JPG');
   background-size: cover;
 }
 
@@ -86,6 +86,7 @@ nav a{
 
 #result-section{
   padding: 60px 0px;
+  background-color: #eeeeee;
 }
 
 #video-section {
