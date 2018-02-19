@@ -103,6 +103,9 @@ nav a{
 
 .interviews .label{
   font-size: 14px;
+  text-align: center;
+  padding-left: 12px;
+  padding-top: 5px;
 }
 
 .interviews > div > h4{
